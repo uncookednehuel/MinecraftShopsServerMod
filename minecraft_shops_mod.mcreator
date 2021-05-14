@@ -1,0 +1,151 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OneDollerBill",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "one_doller_bill"
+    },
+    {
+      "name": "FiveDollarBill",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "five_dollar_bill"
+    },
+    {
+      "name": "TenDollarBill",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ten_dollar_bill"
+    },
+    {
+      "name": "MinecraftShopsModTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecraft_shops_mod_tab"
+    },
+    {
+      "name": "TwentyDollarBill",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twenty_dollar_bill"
+    },
+    {
+      "name": "FiftyDollarBill",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fifty_dollar_bill"
+    },
+    {
+      "name": "HundredDollarBill",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hundred_dollar_bill"
+    },
+    {
+      "name": "FiveHundredDollarBill",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "five_hundred_dollar_bill"
+    },
+    {
+      "name": "VendingGUI",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_gui"
+    },
+    {
+      "name": "VendingMachine",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine"
+    },
+    {
+      "name": "CompressedIron",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_iron"
+    },
+    {
+      "name": "CompressedIronRCP",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_iron_rcp"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabminecraft_shops_mod_tab": "Minecraft Shops Mod",
+      "item.minecraft_shops_mod.twenty_dollar_bill": "Twenty Dollar Bill",
+      "item.minecraft_shops_mod.hundred_dollar_bill": "Hundred Dollar Bill",
+      "item.minecraft_shops_mod.five_dollar_bill": "Five Dollar Bill",
+      "item.minecraft_shops_mod.five_hundred_dollar_bill": "Five Hundred Dollar Bill",
+      "block.minecraft_shops_mod.vending_machine": "Vending Machine",
+      "item.minecraft_shops_mod.one_doller_bill": "One Doller Bill",
+      "item.minecraft_shops_mod.fifty_dollar_bill": "Fifty Dollar Bill",
+      "item.minecraft_shops_mod.ten_dollar_bill": "Ten Dollar Bill",
+      "item.minecraft_shops_mod.compressed_iron": "Compressed Iron"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecraft_shops_mod",
+    "modName": "Minecraft Shops Mod",
+    "version": "1.0.0",
+    "author": "Nehuel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.minecraftshopsmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
