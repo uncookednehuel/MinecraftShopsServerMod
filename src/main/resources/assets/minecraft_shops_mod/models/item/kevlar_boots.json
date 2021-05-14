@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft_shops_mod:items/kevlar_boots"
+  }
+}
