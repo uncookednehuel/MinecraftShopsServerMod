@@ -45,6 +45,8 @@ public class MinecraftShopsModModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public MinecraftShopsModModElements() {
+		sounds.put(new ResourceLocation("minecraft_shops_mod", "rick_roll"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("minecraft_shops_mod", "rick_roll")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("minecraft_shops_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,1 +1,12 @@
-{}
+{
+  "rick_roll": {
+    "category": "record",
+    "subtitle": "subtitles.rick_roll",
+    "sounds": [
+      {
+        "name": "minecraft_shops_mod:y2mate.com_-_rick_astley__never_gonna_give_you_up_video",
+        "stream": true
+      }
+    ]
+  }
+}
