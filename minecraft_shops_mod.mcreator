@@ -180,6 +180,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_boots"
+    },
+    {
+      "name": "RickRollCmdCommandExecuted",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rick_roll_cmd_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RickRollCmd",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rick_roll_cmd"
     }
   ],
   "variable_elements": [],
