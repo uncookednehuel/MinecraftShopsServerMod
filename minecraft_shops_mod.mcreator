@@ -108,6 +108,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "compressed_iron_rcp"
+    },
+    {
+      "name": "RubyGem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_gem"
     }
   ],
   "variable_elements": [],
@@ -117,6 +126,7 @@
       "itemGroup.tabminecraft_shops_mod_tab": "Minecraft Shops Mod",
       "item.minecraft_shops_mod.twenty_dollar_bill": "Twenty Dollar Bill",
       "item.minecraft_shops_mod.hundred_dollar_bill": "Hundred Dollar Bill",
+      "item.minecraft_shops_mod.ruby_gem": "Ruby Gem",
       "item.minecraft_shops_mod.five_dollar_bill": "Five Dollar Bill",
       "item.minecraft_shops_mod.five_hundred_dollar_bill": "Five Hundred Dollar Bill",
       "block.minecraft_shops_mod.vending_machine": "Vending Machine",
