@@ -12,11 +12,11 @@ import net.mcreator.minecraftshopsmod.itemgroup.MinecraftShopsModTabItemGroup;
 import net.mcreator.minecraftshopsmod.MinecraftShopsModModElements;
 
 @MinecraftShopsModModElements.ModElement.Tag
-public class OneDollerBillItem extends MinecraftShopsModModElements.ModElement {
-	@ObjectHolder("minecraft_shops_mod:one_doller_bill")
+public class OneDollarBillItem extends MinecraftShopsModModElements.ModElement {
+	@ObjectHolder("minecraft_shops_mod:one_dollar_bill")
 	public static final Item block = null;
-	public OneDollerBillItem(MinecraftShopsModModElements instance) {
-		super(instance, 1);
+	public OneDollarBillItem(MinecraftShopsModModElements instance) {
+		super(instance, 21);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class OneDollerBillItem extends MinecraftShopsModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MinecraftShopsModTabItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.UNCOMMON));
-			setRegistryName("one_doller_bill");
+			setRegistryName("one_dollar_bill");
 		}
 
 		@Override
