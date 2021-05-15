@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_shops_mod:blocks/money_block",
+    "up": "minecraft_shops_mod:blocks/money_block",
+    "north": "minecraft_shops_mod:blocks/money_block",
+    "east": "minecraft_shops_mod:blocks/money_block",
+    "south": "minecraft_shops_mod:blocks/money_block",
+    "west": "minecraft_shops_mod:blocks/money_block",
+    "particle": "minecraft_shops_mod:blocks/money_block"
+  }
+}

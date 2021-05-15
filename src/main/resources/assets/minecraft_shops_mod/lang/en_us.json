@@ -1,5 +1,6 @@
 {
   "itemGroup.tabminecraft_shops_mod_tab": "Minecraft Shops Mod",
+  "block.minecraft_shops_mod.money_block": "Money Block",
   "item.minecraft_shops_mod.hundred_dollar_bill": "Hundred Dollar Bill",
   "item.minecraft_shops_mod.ruby_gem": "Ruby Gem",
   "item.minecraft_shops_mod.five_dollar_bill": "Five Dollar Bill",
@@ -15,6 +16,7 @@
   "item.minecraft_shops_mod.rick_roll": "Rick Roll",
   "item.minecraft_shops_mod.rick_roll.desc": "Please, just PLEASE don\u0027t ply this.",
   "item.minecraft_shops_mod.kevlar": "Kevlar",
+  "subtitles.money_song": "MONEY",
   "item.minecraft_shops_mod.kevlar_armor_boots": "Kevlar Boots",
   "item.minecraft_shops_mod.kevlar_armor_chestplate": "Kevlar Chestplate",
   "item.minecraft_shops_mod.one_dollar_bill": "One Dollar Bill"

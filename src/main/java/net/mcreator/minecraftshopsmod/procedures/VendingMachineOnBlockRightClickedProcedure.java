@@ -14,7 +14,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.minecraftshopsmod.gui.VendingGUIGui;
+import net.mcreator.minecraftshopsmod.gui.OwnerVendingGuiGui;
 import net.mcreator.minecraftshopsmod.MinecraftShopsModModElements;
 import net.mcreator.minecraftshopsmod.MinecraftShopsModMod;
 
@@ -59,6 +59,7 @@ public class VendingMachineOnBlockRightClickedProcedure extends MinecraftShopsMo
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+		String owner = "";
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).closeScreen();
 		{
@@ -68,12 +69,12 @@ public class VendingMachineOnBlockRightClickedProcedure extends MinecraftShopsMo
 				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("VendingGUI");
+						return new StringTextComponent("OwnerVendingGui");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new VendingGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new OwnerVendingGuiGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

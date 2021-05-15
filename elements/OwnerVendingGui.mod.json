@@ -1,0 +1,145 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 258,
+          "y": 61
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Cost",
+          "width": 120,
+          "height": 20,
+          "name": "Cost",
+          "x": 132,
+          "y": 95
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 258,
+          "y": 79
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #2",
+          "x": 258,
+          "y": 97
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #3",
+          "x": 276,
+          "y": 61
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #4",
+          "x": 276,
+          "y": 79
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #5",
+          "x": 276,
+          "y": 97
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Amount Per Sale",
+          "width": 120,
+          "height": 20,
+          "name": "Amount",
+          "x": 132,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Collect Funds",
+          "width": 90,
+          "height": 20,
+          "name": "Collect Funds",
+          "x": 207,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Label text",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Label text",
+          "x": 132,
+          "y": 62
+        }
+      }
+    ]
+  }
+}

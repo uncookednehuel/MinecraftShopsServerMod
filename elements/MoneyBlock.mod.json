@@ -2,40 +2,40 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "oak_planks",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "vendingmachine:default",
-    "rotationMode": 1,
+    "texture": "money_block",
+    "textureTop": "money_block",
+    "textureLeft": "money_block",
+    "textureFront": "money_block",
+    "textureRight": "money_block",
+    "textureBack": "money_block",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 1.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 1.0,
-        "Mx": 15.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
-        "Mz": 15.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Vending Machine",
+    "name": "Money Block",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 0.5,
+    "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,16 +43,16 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:FiveHundredDollarBill"
     },
-    "dropAmount": 1,
+    "dropAmount": 9,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "IRON"
+      "value": "GRASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GROUND"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -84,13 +84,13 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
-    "guiBoundTo": "VendingGUI",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 6,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": false,
+    "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -101,18 +101,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "VendingMachineOnBlockRightClicked"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "blocksToReplace": [],
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

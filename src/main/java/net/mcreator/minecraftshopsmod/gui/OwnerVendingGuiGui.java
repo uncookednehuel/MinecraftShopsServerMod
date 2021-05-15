@@ -36,11 +36,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @MinecraftShopsModModElements.ModElement.Tag
-public class VendingGUIGui extends MinecraftShopsModModElements.ModElement {
+public class OwnerVendingGuiGui extends MinecraftShopsModModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public VendingGUIGui(MinecraftShopsModModElements instance) {
-		super(instance, 9);
+	public OwnerVendingGuiGui(MinecraftShopsModModElements instance) {
+		super(instance, 24);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -51,12 +51,12 @@ public class VendingGUIGui extends MinecraftShopsModModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("vending_gui"));
+			event.getRegistry().register(containerType.setRegistryName("owner_vending_gui"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, VendingGUIGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, OwnerVendingGuiGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -75,7 +75,7 @@ public class VendingGUIGui extends MinecraftShopsModModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(1);
+			this.internal = new ItemStackHandler(6);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -113,7 +113,17 @@ public class VendingGUIGui extends MinecraftShopsModModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 63) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 133, 25) {
+			}));
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 133, 43) {
+			}));
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 133, 61) {
+			}));
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 151, 25) {
+			}));
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 151, 43) {
+			}));
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 151, 61) {
 			}));
 			int si;
 			int sj;
@@ -140,18 +150,18 @@ public class VendingGUIGui extends MinecraftShopsModModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 1) {
-					if (!this.mergeItemStack(itemstack1, 1, this.inventorySlots.size(), true)) {
+				if (index < 6) {
+					if (!this.mergeItemStack(itemstack1, 6, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 1, false)) {
-					if (index < 1 + 27) {
-						if (!this.mergeItemStack(itemstack1, 1 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 6, false)) {
+					if (index < 6 + 27) {
+						if (!this.mergeItemStack(itemstack1, 6 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 1, 1 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 6, 6 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -257,10 +267,34 @@ public class VendingGUIGui extends MinecraftShopsModModElements.ModElement {
 			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
 				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
 					for (int j = 0; j < internal.getSlots(); ++j) {
+						if (j == 0)
+							continue;
+						if (j == 1)
+							continue;
+						if (j == 2)
+							continue;
+						if (j == 3)
+							continue;
+						if (j == 4)
+							continue;
+						if (j == 5)
+							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
 				} else {
 					for (int i = 0; i < internal.getSlots(); ++i) {
+						if (i == 0)
+							continue;
+						if (i == 1)
+							continue;
+						if (i == 2)
+							continue;
+						if (i == 3)
+							continue;
+						if (i == 4)
+							continue;
+						if (i == 5)
+							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 					}

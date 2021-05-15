@@ -8,5 +8,15 @@
         "stream": true
       }
     ]
+  },
+  "money_song": {
+    "category": "master",
+    "subtitle": "subtitles.money_song",
+    "sounds": [
+      {
+        "name": "minecraft_shops_mod:y2mate.com-shane-mcmahon-here-comes-the-money-entrance-theme",
+        "stream": false
+      }
+    ]
   }
 }

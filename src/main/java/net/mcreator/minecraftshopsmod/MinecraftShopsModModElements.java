@@ -47,6 +47,8 @@ public class MinecraftShopsModModElements {
 	public MinecraftShopsModModElements() {
 		sounds.put(new ResourceLocation("minecraft_shops_mod", "rick_roll"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("minecraft_shops_mod", "rick_roll")));
+		sounds.put(new ResourceLocation("minecraft_shops_mod", "money_song"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("minecraft_shops_mod", "money_song")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("minecraft_shops_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
