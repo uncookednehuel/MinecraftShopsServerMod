@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "five_dollar_bill"
+      "registry_name": "five_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "TenDollarBill",
@@ -17,7 +18,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ten_dollar_bill"
+      "registry_name": "ten_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "MinecraftShopsModTab",
@@ -35,7 +37,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "twenty_dollar_bill"
+      "registry_name": "twenty_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "FiftyDollarBill",
@@ -44,7 +47,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fifty_dollar_bill"
+      "registry_name": "fifty_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "HundredDollarBill",
@@ -53,7 +57,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "hundred_dollar_bill"
+      "registry_name": "hundred_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "FiveHundredDollarBill",
@@ -62,7 +67,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "five_hundred_dollar_bill"
+      "registry_name": "five_hundred_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "VendingGUI",
@@ -145,7 +151,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "one_dollar_bill"
+      "registry_name": "one_dollar_bill",
+      "path": "~/money/bills"
     },
     {
       "name": "KevlarArmor",
@@ -162,6 +169,39 @@
         "ec": true
       },
       "path": "~/kevlar"
+    },
+    {
+      "name": "VendingMachineOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -204,6 +244,19 @@
       {
         "name": "kevlar",
         "children": []
+      },
+      {
+        "name": "money",
+        "children": [
+          {
+            "name": "bills",
+            "children": []
+          },
+          {
+            "name": "coins",
+            "children": []
+          }
+        ]
       }
     ]
   },
