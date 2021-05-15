@@ -131,7 +131,7 @@
       "name": "Kevlar",
       "type": "item",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar"
@@ -149,7 +149,7 @@
       "name": "KevlarHelmet",
       "type": "item",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_helmet"
@@ -158,7 +158,7 @@
       "name": "KevlarChestplate",
       "type": "item",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_chestplate"
@@ -167,7 +167,7 @@
       "name": "KevlarLeggings",
       "type": "item",
       "sortid": 19,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_leggings"
@@ -176,36 +176,10 @@
       "name": "KevlarBoots",
       "type": "item",
       "sortid": 20,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_boots"
-    },
-    {
-      "name": "RickRollCmdCommandExecuted",
-      "type": "procedure",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rick_roll_cmd_command_executed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RickRollCmd",
-      "type": "command",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rick_roll_cmd"
     }
   ],
   "variable_elements": [],
