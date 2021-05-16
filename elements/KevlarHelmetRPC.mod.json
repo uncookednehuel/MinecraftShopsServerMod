@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "ka",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Kevlar"
+      },
+      {
+        "value": "CUSTOM:Kevlar"
+      },
+      {
+        "value": "CUSTOM:Kevlar"
+      },
+      {
+        "value": "CUSTOM:Kevlar"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Kevlar"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KevlarArmor.helmet"
+    },
+    "name": "kevlar_helmet_rpc",
+    "namespace": "mod"
+  }
+}

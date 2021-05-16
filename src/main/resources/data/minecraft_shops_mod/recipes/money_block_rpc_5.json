@@ -1,0 +1,42 @@
+{
+  "group": "mb",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "1": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "2": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "3": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "4": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "5": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "6": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "7": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    },
+    "8": {
+      "item": "minecraft_shops_mod:five_hundred_dollar_bill"
+    }
+  },
+  "result": {
+    "item": "minecraft_shops_mod:money_block",
+    "count": 1
+  }
+}

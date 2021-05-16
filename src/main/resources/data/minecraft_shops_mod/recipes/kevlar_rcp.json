@@ -1,40 +1,35 @@
 {
   "group": "minecraft_shops_mod",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:bamboo"
     },
-    "1": {
+    {
       "item": "minecraft:netherite_scrap"
     },
-    "2": {
+    {
       "item": "minecraft:bamboo"
     },
-    "3": {
+    {
       "item": "minecraft:bamboo"
     },
-    "4": {
+    {
       "item": "minecraft_shops_mod:compressed_iron"
     },
-    "5": {
+    {
       "item": "minecraft:bamboo"
     },
-    "6": {
+    {
       "item": "minecraft:dried_kelp"
     },
-    "7": {
+    {
       "item": "minecraft:dried_kelp"
     },
-    "8": {
+    {
       "item": "minecraft:dried_kelp"
     }
-  },
+  ],
   "result": {
     "item": "minecraft_shops_mod:kevlar",
     "count": 2

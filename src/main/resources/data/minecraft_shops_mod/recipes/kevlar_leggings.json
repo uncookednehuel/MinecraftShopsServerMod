@@ -1,0 +1,36 @@
+{
+  "group": "ka",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft_shops_mod:kevlar"
+    },
+    "1": {
+      "item": "minecraft_shops_mod:kevlar"
+    },
+    "2": {
+      "item": "minecraft_shops_mod:kevlar"
+    },
+    "3": {
+      "item": "minecraft_shops_mod:kevlar"
+    },
+    "5": {
+      "item": "minecraft_shops_mod:kevlar"
+    },
+    "6": {
+      "item": "minecraft_shops_mod:kevlar"
+    },
+    "8": {
+      "item": "minecraft_shops_mod:kevlar"
+    }
+  },
+  "result": {
+    "item": "minecraft_shops_mod:kevlar_armor_leggings",
+    "count": 1
+  }
+}

@@ -142,7 +142,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_rcp",
-      "path": "~/kevlar"
+      "path": "~/kevlar/recepies"
     },
     {
       "name": "OneDollarBill",
@@ -221,6 +221,66 @@
       "ids": {},
       "registry_name": "money_block",
       "path": "~/money/other"
+    },
+    {
+      "name": "MoneyBlockRPC",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_block_rpc",
+      "path": "~/money/other"
+    },
+    {
+      "name": "MoneyBlockRPC5",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_block_rpc_5",
+      "path": "~/money/other"
+    },
+    {
+      "name": "KevlarBootsRPC",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_boots_rpc",
+      "path": "~/kevlar/recepies"
+    },
+    {
+      "name": "KevlarChestplateRPC",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_chestplate_rpc",
+      "path": "~/kevlar/recepies"
+    },
+    {
+      "name": "KevlarHelmetRPC",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_helmet_rpc",
+      "path": "~/kevlar/recepies"
+    },
+    {
+      "name": "KevlarLeggings",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_leggings",
+      "path": "~/kevlar/recepies"
     }
   ],
   "variable_elements": [],
@@ -272,7 +332,12 @@
     "children": [
       {
         "name": "kevlar",
-        "children": []
+        "children": [
+          {
+            "name": "recepies",
+            "children": []
+          }
+        ]
       },
       {
         "name": "money",
