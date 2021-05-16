@@ -1,21 +1,18 @@
 {
-  "item.minecraft_shops_mod.kevlar_chestplate": "Kevlar Chestplate",
-  "item.minecraft_shops_mod.kevlar_helmet": "Kevlar Helmet",
   "itemGroup.tabminecraft_shops_mod_tab": "Minecraft Shops Mod",
   "item.minecraft_shops_mod.hundred_dollar_bill": "Hundred Dollar Bill",
   "item.minecraft_shops_mod.ruby_gem": "Ruby Gem",
   "item.minecraft_shops_mod.five_dollar_bill": "Five Dollar Bill",
   "block.minecraft_shops_mod.vending_machine": "Vending Machine",
   "subtitles.rick_roll": "DON\u0027T PLAY THIS",
-  "item.minecraft_shops_mod.kevlar_boots": "Kevlar Boots",
   "item.minecraft_shops_mod.fifty_dollar_bill": "Fifty Dollar Bill",
   "item.minecraft_shops_mod.ten_dollar_bill": "Ten Dollar Bill",
-  "item.minecraft_shops_mod.kevlar_leggings": "Kevlar Leggings",
   "item.minecraft_shops_mod.compressed_iron": "Compressed Iron",
   "item.minecraft_shops_mod.twenty_dollar_bill": "Twenty Dollar Bill",
   "item.minecraft_shops_mod.five_hundred_dollar_bill": "Five Hundred Dollar Bill",
-  "item.minecraft_shops_mod.rick_roll": "Rick Roll",
   "item.minecraft_shops_mod.rick_roll.desc": "Please, just PLEASE don\u0027t ply this.",
+  "subtitles.money_song": "MONEY",
+  "item.minecraft_shops_mod.rick_roll": "Rick Roll",
   "item.minecraft_shops_mod.kevlar": "Kevlar",
   "item.minecraft_shops_mod.one_doller_bill": "One Doller Bill"
 }

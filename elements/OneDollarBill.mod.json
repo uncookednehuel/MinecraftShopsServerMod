@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "one_dollar_bill",
     "customModelName": "Normal",
-    "name": "One Doller Bill",
+    "name": "One Dollar Bill",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:MinecraftShopsModTab"

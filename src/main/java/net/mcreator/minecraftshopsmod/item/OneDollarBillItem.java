@@ -2,13 +2,13 @@
 package net.mcreator.minecraftshopsmod.item;
 
 @MinecraftShopsModModElements.ModElement.Tag
-public class KevlarBootsItem extends MinecraftShopsModModElements.ModElement {
+public class OneDollarBillItem extends MinecraftShopsModModElements.ModElement {
 
-	@ObjectHolder("minecraft_shops_mod:kevlar_boots")
+	@ObjectHolder("minecraft_shops_mod:one_dollar_bill")
 	public static final Item block = null;
 
-	public KevlarBootsItem(MinecraftShopsModModElements instance) {
-		super(instance, 20);
+	public OneDollarBillItem(MinecraftShopsModModElements instance) {
+		super(instance, 21);
 
 	}
 
@@ -20,8 +20,8 @@ public class KevlarBootsItem extends MinecraftShopsModModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(MinecraftShopsModTabItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
-			setRegistryName("kevlar_boots");
+			super(new Item.Properties().group(MinecraftShopsModTabItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.UNCOMMON));
+			setRegistryName("one_dollar_bill");
 		}
 
 		@Override
