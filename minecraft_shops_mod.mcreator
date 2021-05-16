@@ -134,7 +134,8 @@
       "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar"
+      "registry_name": "kevlar",
+      "path": "~/Kevlar"
     },
     {
       "name": "KevlarRCP",
@@ -143,7 +144,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar_rcp"
+      "registry_name": "kevlar_rcp",
+      "path": "~/Kevlar"
     },
     {
       "name": "KevlarHelmet",
@@ -152,7 +154,8 @@
       "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar_helmet"
+      "registry_name": "kevlar_helmet",
+      "path": "~/Kevlar"
     },
     {
       "name": "KevlarChestplate",
@@ -161,7 +164,8 @@
       "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar_chestplate"
+      "registry_name": "kevlar_chestplate",
+      "path": "~/Kevlar"
     },
     {
       "name": "KevlarLeggings",
@@ -170,7 +174,8 @@
       "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar_leggings"
+      "registry_name": "kevlar_leggings",
+      "path": "~/Kevlar"
     },
     {
       "name": "KevlarBoots",
@@ -179,7 +184,8 @@
       "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar_boots"
+      "registry_name": "kevlar_boots",
+      "path": "~/Kevlar"
     }
   ],
   "variable_elements": [],
