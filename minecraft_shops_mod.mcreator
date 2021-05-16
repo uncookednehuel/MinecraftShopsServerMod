@@ -142,7 +142,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kevlar_rcp",
-      "path": "~/kevlar/recepies"
+      "path": "~/kevlar"
     },
     {
       "name": "OneDollarBill",
@@ -223,14 +223,14 @@
       "path": "~/money/other"
     },
     {
-      "name": "MoneyBlockRPC",
+      "name": "KevlarHelmetRPC",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "money_block_rpc",
-      "path": "~/money/other"
+      "registry_name": "kevlar_helmet_rpc",
+      "path": "~/kevlar/recepies"
     },
     {
       "name": "MoneyBlockRPC5",
@@ -240,6 +240,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "money_block_rpc_5",
+      "path": "~/money/other"
+    },
+    {
+      "name": "MoneyBlockRPC",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_block_rpc",
       "path": "~/money/other"
     },
     {
@@ -263,14 +273,31 @@
       "path": "~/kevlar/recepies"
     },
     {
-      "name": "KevlarHelmetRPC",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
+      "name": "KevlarHelmet",
+      "type": "item",
+      "sortid": 17,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kevlar_helmet_rpc",
-      "path": "~/kevlar/recepies"
+      "registry_name": "kevlar_helmet"
+    },
+    {
+      "name": "KevlarChestplate",
+      "type": "item",
+      "sortid": 18,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_chestplate"
+    },
+    {
+      "name": "KevlarBoots",
+      "type": "item",
+      "sortid": 20,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kevlar_boots"
     },
     {
       "name": "KevlarLeggings",
@@ -347,11 +374,11 @@
             "children": []
           },
           {
-            "name": "coins",
+            "name": "other",
             "children": []
           },
           {
-            "name": "other",
+            "name": "coins",
             "children": []
           }
         ]
