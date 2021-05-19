@@ -7,8 +7,12 @@ modId="minecraft_shops_mod"
 version="1.0.0"
 displayName="Minecraft Shops Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Nehuel, MCreator"
+displayURL="https://discord.gg/SWx2JxfNCw"
+logoFile="logo.png"
+authors="Nehuel, MCreator, Markverb1"
+description='''
+Mod for the Minecraft shops server.
+'''
 
 [[dependencies.minecraft_shops_mod]]
     modId="minecraft"
